@@ -1,0 +1,281 @@
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ body {
+     background-color: #000;
+     height: 1000vh;
+ }
+
+ nav {
+     width: 120px;
+     background-color: #222;
+     height: 800px;
+     position: fixed;
+     left: 0;
+ }
+
+ .avatar img {
+     width: 100%;
+ }
+
+ .nav-link li {
+     padding: 20px;
+     width: 100%;
+ }
+
+ .nav-link i {
+     font-size: 30px;
+     color: #fff;
+     margin-bottom: 5px;
+     cursor: pointer;
+ }
+
+ .nav-link a {
+     font-size: 12px;
+     color: #fff;
+     margin-top: 5px;
+ }
+
+ .nav-link li:hover {
+     background-color: #000;
+ }
+
+ .active {
+     background-color: #000;
+ }
+
+ .active:hover {
+     background-color: #ca2d2d;
+     color: #000;
+ }
+
+ .text h1 {
+     color: #fff;
+     font-size: 64px;
+     margin: 20px 0px;
+ }
+
+ .info img {
+     display: block;
+     margin-left: 10px;
+     padding-left: 20px;
+ }
+
+ .text p {
+     color: #fff;
+     font-size: 15px;
+     margin: 15px 0px;
+ }
+
+ .content .info h2 {
+     color: #f1f1f1;
+ }
+
+ .content .info hr,
+ .photo hr,
+ .contact hr {
+     width: 200px;
+     color: #f1f1f1;
+ }
+
+ .content .info p {
+     color: #757575;
+ }
+
+ .skills h3,
+ .reputation h3,
+ .photo h3 {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding-top: 20px;
+     color: #f1f1f1;
+ }
+
+ .skills .skill-holder {
+     margin-bottom: 40px;
+ }
+
+ .skills .skill-holder h4 {
+     margin-bottom: 15px;
+     font-weight: normal;
+     color: #757575;
+     letter-spacing: 4px;
+     font-size: 15px;
+ }
+
+ .skills .skill-holder .skill {
+     background-color: #dedadc;
+     height: 30px;
+ }
+
+ .skills .skill-holder .skill span {
+     display: block;
+     height: 100%;
+     background-color: #616161;
+ }
+
+ .stats .boxes {
+     display: block;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+ }
+
+ .stats .box {
+     color: #222;
+     padding: 10px 99px;
+     background-color: #f1f1f1;
+ }
+
+ .stats .box .number {
+     font-size: 24px;
+ }
+
+ .stats .box p {
+     font-size: 14px;
+ }
+
+ .stats button {
+     display: block;
+     border: none;
+     margin-top: 16px;
+     margin-bottom: 16px;
+     padding: 12px 24px;
+     transition: 1s;
+     background-color: #f1f1f1;
+     color: #000;
+ }
+
+ .stats button:hover {
+     background-color: #ccc;
+ }
+
+ .price {
+     padding: 50px 0;
+     position: relative;
+ }
+
+ .price h3 {
+     font-size: 2em;
+     margin-bottom: 30px;
+     color: #f1f1f1;
+ }
+
+ .price .row {
+     display: flex;
+     justify-content: center;
+ }
+
+ .price .col-md-6 {
+     flex: 1;
+     max-width: 100%;
+     margin: 0 10px;
+ }
+
+ .price .box {
+     text-align: center;
+     background: #ddd;
+     border-radius: 5px;
+     overflow: hidden;
+     position: relative;
+     z-index: 1;
+     transition: background-color 0.3s ease;
+ }
+
+ .price .content ul li {
+     padding: 16px 0;
+     border-bottom: 1px solid #ddd;
+     font-size: 1.1em;
+ }
+
+ .price .box:hover {
+     background-color: #fff;
+ }
+
+ .price .box:hover .head {
+     background-color: #333;
+ }
+
+ .price .head {
+     background: #333;
+     color: #fff;
+     padding: 20px;
+     font-size: 30px;
+     transition: background-color 0.3s ease;
+ }
+
+ .price .content {
+     padding: 20px;
+ }
+
+ .price .content ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .price .content ul li span {
+     display: block;
+     font-size: 0.8em;
+     color: #888;
+ }
+
+ .price .box a {
+     display: block;
+     width: fit-content;
+     color: #222;
+     margin: 30px auto 40px;
+     padding: 15px 20px;
+     border-radius: 6px;
+     font-weight: bold;
+     transition: 0.3s;
+     border: 1px solid #fff;
+     background-color: #fff;
+ }
+
+ .price .box a:hover {
+     background-color: #222;
+     color: #f1f1f1;
+ }
+
+ .reputation .info {
+     display: flex;
+     margin: 20px;
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+ }
+
+ .reputation .info img {
+     width: 80px;
+     border-radius: 50%;
+ }
+
+ .reputation .info .text {
+     margin-left: 10px;
+     color: #757575;
+ }
+
+ .photo .col-md-6 {
+     max-height: 500px;
+     width: 50%;
+ }
+
+ .photo .col-md-6 img {
+     width: 100%;
+ }
+
+ .photo {
+     margin-bottom: 50px;
+ }
